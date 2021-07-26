@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+:root {
+  --primaryColor-bg: #fcd34d;
+  --secondaryColor-text: #fff;
+  --primaryColor-text: #374151;
+  --primaryColor-green: #10b981;
+  --primaryColor-red: #f87171;
+}
+
+body {
+  font-family: "Otomanopee One", sans-serif;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+#main {
+  max-width: 300px;
+}
+
+#container-center {
+  flex: 1 1 auto;
+  padding: 0rem 1rem;
+}
+
+h1 {
+  color: var(--primaryColor-green);
+  text-align: center;
+}
+
+h3 {
+  color: var(--primaryColor-green) !important;
+}
+
+#input {
+  width: 200px;
+  padding: 2rem;
+  font-family: "Otomanopee One", sans-serif;
+  margin: auto;
+  display: block;
+  height: 100px;
+  margin-top: 1.3rem !important;
+  color: var(--primaryColor-text);
+  border-radius: 10rem;
+  text-align: center;
+}
+
+#btn-translate {
+  padding: 1rem 2rem;
+  font-family: "Otomanopee One", sans-serif;
+  margin: auto;
+  display: block;
+  border: 0px;
+  background-color: var(--primaryColor-red);
+  border-radius: 5px;
+  color: var(--secondaryColor-text);
+  font-size: 00.9rem;
+}
+
+#info {
+  margin-top: 0.5rem !important;
+  display: block;
+  color: var(--primaryColor-text);
+  padding: 0.5rem 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+#outputText {
+  width: 200px;
+  height: 100px;
+  border-radius: 10rem;
+  padding: 2rem;
+  border: 1px solid gray;
+  margin: auto;
+  color: var(--primaryColor-text);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#container h3 {
+  text-align: center;
+  color: var(--primaryColor-text);
+}
+
+#container p {
+  text-align: center;
+  color: var(--primaryColor-text);
+}
+
+#clipart {
+  width: 200px;
+  height: 80vh;
+}
+
+#img-container {
+}
+
+#main-container {
+  height: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
