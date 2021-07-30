@@ -16,12 +16,12 @@ body {
 }
 
 #main {
-  max-width: 300px;
+  /* max-width: 300px; */
 }
 
 #container-center {
   flex: 1 1 auto;
-  padding: 0rem 1rem;
+  /* padding: 0rem 1rem; */
 }
 
 h1 {
@@ -32,6 +32,7 @@ h1 {
 h3 {
   text-align: center;
   color: var(--primaryColor-green);
+  padding: 0rem 1rem;
 }
 
 #input {
@@ -91,6 +92,8 @@ h3 {
 }
 
 #img-container {
+  display: flex;
+  align-items: center;
 }
 
 #main-container {
@@ -103,4 +106,20 @@ h3 {
 
 #container {
   width: 100vw;
+}
+
+@media screen and (max-width: 530px) {
+  #clipart {
+    width: 130px;
+    height: 55vh;
+  }
+  #input {
+    width: 120px;
+    height: 50px;
+    margin-top: 0rem;
+  }
+  #outputText {
+    width: 120px;
+    height: 50px;
+  }
 }
