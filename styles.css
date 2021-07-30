@@ -88,7 +88,7 @@ h3 {
 
 #clipart {
   width: 200px;
-  height: 80vh;
+  height: 500px;
 }
 
 #img-container {
@@ -111,7 +111,7 @@ h3 {
 @media screen and (max-width: 530px) {
   #clipart {
     width: 130px;
-    height: 55vh;
+    height: 350px;
   }
   #input {
     width: 120px;
